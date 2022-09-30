@@ -1,0 +1,84 @@
+#retrospect {
+  padding: 24vw 0 24vw 4vw;
+  background-color: var(--background-color);
+  overflow: scroll;
+}
+
+#retrospect .title {
+  color: var(--primary-color);
+}
+
+#retrospect .title h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 7.2vw;
+  font-weight: 700;
+  margin-bottom: 3.5vw;
+}
+
+#retrospect .title p {
+  font-size: 4vw;
+  font-weight: 400;
+  margin-bottom: 15vw;
+}
+
+#retrospect .contents {
+  width: 100%;
+  overflow-x: scroll;
+}
+
+#retrospect ul {
+  display: flex;
+  gap: 4vw;
+  width: calc((50vw + 4vw) * 8);
+}
+
+#retrospect li {
+  width: 50vw;
+  height: 50vw;
+  border-radius: 3vw;
+  background-size: cover;
+}
+
+#retrospect .post:nth-child(1) {
+  background-image: url(../images/cloud.jpeg);
+}
+
+#retrospect .post:nth-child(2) {
+  background-image: url(../images/cloud.jpeg);
+}
+
+#retrospect .post:nth-child(3) {
+  background-image: url(../images/cloud.jpeg);
+}
+
+#retrospect .post:nth-child(4) {
+  background-image: url(../images/cloud.jpeg);
+}
+
+#retrospect .post:nth-child(5) {
+  background-image: url(../images/cloud.jpeg);
+}
+
+#retrospect .post:nth-child(6) {
+  background-image: url(../images/cloud.jpeg);
+}
+
+#retrospect .post:nth-child(7) {
+  background-image: url(../images/cloud.jpeg);
+}
+
+#retrospect .post:nth-child(8) {
+  background-image: url(../images/cloud.jpeg);
+}
+
+#retrospect .post a {
+  font-size: 4vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5vw;
+  width: 100%;
+  height: 100%;
+  border-radius: 3vw;
+  color: #fff;
+}

@@ -1,0 +1,19 @@
+aside .go-top {
+  position: fixed;
+  bottom: 25vw;
+  right: 4vw;
+  display: block;
+  width: 11vw;
+  height: 11vw;
+  background: url(../images/top-white.png) no-repeat 0 0 / contain;
+  text-indent: -10000px;
+  overflow: hidden;
+}
+
+aside .go-top:hover {
+  background-image: url(../images/top-black.png);
+}
+
+aside .go-top:active {
+  background-image: url(../images/top-white.png);
+}

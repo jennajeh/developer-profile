@@ -1,0 +1,54 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+:root {
+  --header-height: 75px;
+  --primary-color: #6451a3;
+  --secondary-color: #413592;
+  --background-color: rgb(222, 207, 236);
+  --gray-color: #ddd;
+  --dark-gray-color: #666;
+}
+
+* {
+  font-size: 16px;
+  font-family: "Spoqa Han Sans Neo", "sans-serif";
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  word-break: keep-all;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background-color: none;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

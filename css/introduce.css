@@ -1,0 +1,87 @@
+#introduce {
+  padding: 25.6vw 4.5vw 1.6vw;
+}
+
+#introduce .profile-image {
+  position: relative;
+  margin: 11vw auto;
+  width: 42vw;
+  height: 42vw;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/* #introduce .profile-image img {
+  position: absolute;
+  height: 100%;
+  left: 50%;
+  transform: translate3d(-50%, 0, 0);
+} */
+
+#introduce .about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#introduce h2 {
+  font-size: 4.2vw;
+  font-weight: 700;
+  letter-spacing: -0.15%;
+  margin-bottom: 2vw;
+  text-align: center;
+}
+
+#introduce h2 strong {
+  font-size: 7.8vw;
+  display: block;
+  margin-right: 1.6vw;
+  margin-bottom: 3.7vw;
+}
+
+#introduce p {
+  font-size: 3.8vw;
+  line-height: 7vw;
+  width: 85vw;
+  text-align: center;
+}
+
+#introduce .tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.1vw;
+  padding: 5vw 0 10vw 0;
+  border-bottom: 1px solid #ddd;
+}
+
+#introduce .tags li {
+  font-size: 3.8vw;
+  padding: 2.9vw 4.5vw;
+  border-radius: 10vw;
+  color: var(--primary-color);
+  background-color: var(--background-color);
+}
+
+#introduce address {
+  font-style: normal;
+  padding: 12vw 0;
+  color: var(--dark-gray-color);
+}
+
+#introduce address dt,
+dd {
+  font-size: 3.7vw;
+  display: inline-block;
+  margin-left: 4vw;
+  padding-bottom: 7vw;
+}
+
+#introduce address dt {
+  font-weight: 700;
+  width: 25vw;
+}
+
+#introduce address dd {
+  font-weight: 400;
+}
