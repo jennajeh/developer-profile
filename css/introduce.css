@@ -60,7 +60,7 @@
   padding: 2.9vw 4.5vw;
   border-radius: 10vw;
   color: var(--primary-color);
-  background-color: rgb(222, 207, 236);
+  background-color: var(--background-color);
 }
 
 #introduce address {
