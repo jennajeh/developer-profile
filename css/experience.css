@@ -50,3 +50,49 @@
   grid-area: period;
   color: #666;
 }
+
+@media (min-width: 1024px) {
+  #experience {
+    padding: 8em calc((100% - (1280px)) / 2) 2.5em;
+  }
+
+  #experience .title {
+    margin-bottom: 0;
+    border-bottom: 2px solid #000;
+  }
+
+  #experience .title h3 {
+    font-size: 2em;
+    display: inline-block;
+    margin-right: 1em;
+    margin-bottom: 0;
+  }
+
+  #experience .title p {
+    font-size: 1.1em;
+    display: inline-block;
+  }
+
+  #experience li {
+    display: flex;
+    padding: 0;
+    height: 6.3em;
+  }
+
+  #experience li p {
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+
+  #experience .institution {
+    margin: 0 1em;
+    width: 20%;
+  }
+
+  #experience .course {
+    margin-bottom: 0;
+    width: 60%;
+  }
+}

@@ -72,3 +72,46 @@ header li:last-child:active a {
   color: #fff;
   background-color: var(--primary-color);
 }
+
+@media (min-width: 1024px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: calc((100% - 1280px) / 2);
+    height: var(--header-height);
+  }
+
+  header a h1 {
+    font-size: 1.1em;
+    letter-spacing: -0.05em;
+    padding: 0;
+    height: 100%;
+    border-bottom: 0;
+  }
+
+  header ul {
+    align-items: center;
+    gap: 2em;
+  }
+
+  header li {
+    width: fit-content;
+  }
+
+  header li:last-child {
+    position: static;
+    padding: 0;
+  }
+
+  header li a {
+    font-size: 1em;
+    padding: 1.7em 1em;
+  }
+
+  header li:last-child a {
+    font-size: 1em;
+    padding: 0.7em 1.2em;
+    width: fit-content;
+  }
+}
