@@ -11,13 +11,6 @@
   overflow: hidden;
 }
 
-/* #introduce .profile-image img {
-  position: absolute;
-  height: 100%;
-  left: 50%;
-  transform: translate3d(-50%, 0, 0);
-} */
-
 #introduce .about {
   display: flex;
   flex-direction: column;
@@ -84,4 +77,88 @@ dd {
 
 #introduce address dd {
   font-weight: 400;
+}
+
+@media (min-width: 1024px) {
+  #introduce {
+    display: grid;
+    grid-template:
+      "profile-image about about about about"
+      "profile-image address address address contact";
+    padding-top: calc(11.5em + var(--header-height));
+    padding-bottom: 11.5em;
+    padding-inline: calc((100% - 1280px) / 2);
+    width: 100%;
+  }
+
+  #introduce .about {
+    grid-area: about;
+  }
+
+  #introduce .profile-image {
+    grid-area: profile-image;
+    margin: 0 3em 0 0;
+    width: 19em;
+    height: 19em;
+  }
+
+  #introduce .about h2 {
+    font-size: 1em;
+    font-weight: 700;
+    margin-bottom: 0.8em;
+    width: 100%;
+    letter-spacing: 0.01em;
+    text-align: start;
+  }
+
+  #introduce .about h2 strong {
+    font-size: 2em;
+    display: inline;
+    margin-right: 1em;
+  }
+
+  #introduce .about p {
+    font-size: 1.1em;
+    line-height: 1.2em;
+    width: 100%;
+    text-align: start;
+  }
+
+  #introduce .about .tags {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1em;
+    padding: 1.3em 0 2.8em 0;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+  }
+
+  #introduce .about .tags li {
+    font-size: 1em;
+    padding: 0.7em 1.3em;
+    border-radius: 1.3em;
+    color: var(--primary-color);
+    background-color: var(--background-color);
+  }
+
+  #introduce address {
+    grid-area: address;
+    padding: 3em 0;
+  }
+
+  #introduce address dl {
+    display: grid;
+    grid-template-columns: 15% 40% 15% auto;
+  }
+
+  #introduce address dt,
+  dd {
+    font-size: 1em;
+    margin-left: 0;
+    padding-bottom: 1.5em;
+  }
+
+  #introduce address dt {
+    width: fit-content;
+  }
 }

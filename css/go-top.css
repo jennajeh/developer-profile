@@ -17,3 +17,13 @@ aside .go-top:hover {
 aside .go-top:active {
   background-image: url(../images/top-white.png);
 }
+
+@media (min-width: 1024px) {
+  aside .go-top {
+    bottom: 25%;
+    right: calc((100% - 1280px - 10em) / 2);
+    display: block;
+    width: 3.7em;
+    height: 3.7em;
+  }
+}
